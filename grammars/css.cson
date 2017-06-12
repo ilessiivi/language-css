@@ -622,7 +622,7 @@
       }
       {
         # These colours are deprecated in CSS3: http://www.w3.org/TR/css3-color/#css2-system
-        'match': '''(?xi) (?<![\\w-])
+        'match': '''(?x) (?<![\\w-])
           (ActiveBorder|ActiveCaption|AppWorkspace|Background|ButtonFace|ButtonHighlight|ButtonShadow
           |ButtonText|CaptionText|GrayText|Highlight|HighlightText|InactiveBorder|InactiveCaption
           |InactiveCaptionText|InfoBackground|InfoText|Menu|MenuText|Scrollbar|ThreeDDarkShadow
